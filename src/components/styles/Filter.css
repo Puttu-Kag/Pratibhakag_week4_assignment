@@ -1,0 +1,36 @@
+
+.filter-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 15px; 
+    margin: 20px 0;
+  }
+  
+  .filter-select {
+    padding: 10px;
+    border: 2px solid #007BFF;
+    border-radius: 4px;
+    background-color: white;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .filter-select:focus {
+    border-color: #0056b3;
+    outline: none;
+  }
+  
+  .filter-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .filter-button:hover {
+    background-color: #0056b3;
+  }
+  

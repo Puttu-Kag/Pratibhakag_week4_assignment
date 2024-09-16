@@ -1,0 +1,20 @@
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.job-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px 0;
+  width: 100%; 
+  max-width: 600px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
